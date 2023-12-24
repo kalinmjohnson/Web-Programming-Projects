@@ -1,0 +1,17 @@
+#fireContainer {
+    padding: 20px;
+    margin: 20px;
+    position: fixed;
+}
+
+#burnRocks {
+    padding: 20px;
+    margin: 20px;
+    background-color: maroon;
+    color: lightcoral;
+    border-radius: 5px;
+    border-color: aliceblue;
+    border-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}

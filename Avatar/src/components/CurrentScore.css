@@ -1,0 +1,8 @@
+.currentScoreContainer {
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:lightgray;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Rocks {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  position: relative;
+  height: auto;
+  z-index: -1;
+  background-color:rgb(149, 149, 107);
+  border-radius: 20px;
+}
+
+.FourElements {
+  display: 'flex';
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  background:url("https://i.pinimg.com/originals/4f/c9/6a/4fc96a5c4dea493e7df41620609445e7.png");
+  background-size: 100% 100% ;
+  top:0;
+  width: 100%;
+}
+
+.CurrentRocks {
+  display: 'flex';
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

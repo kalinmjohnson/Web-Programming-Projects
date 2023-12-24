@@ -1,0 +1,12 @@
+.rockContainer {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 50px;
+}
+
+#rock {
+    padding: 3px;
+    margin: 3px;
+
+}
