@@ -1,0 +1,63 @@
+﻿<html>
+<head>
+    <script type='text/javascript' src="common.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.5.0/async.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body id='thebody'>
+
+    <div class="title">Add or Change Some Gargoyles.</div>
+
+    <div class="instructions">
+        <br />
+        Please fill out name fields for GET, POST, PUT, and PATCH requests
+        <br />
+        Please fill out all the the fields for POST and PUT requests
+        <br />
+    </div>
+
+
+    <div class="input">
+        Name: <input type="text" id="name" />
+        <br />
+        Color: <input type="text" id="color" />
+        <br />
+        Size: <input type="text" id="size" />
+        <br />
+        Gender: <input type="text" id="gender" />
+        <br />
+    </div>
+
+    <form>
+        <button type='button' class="button" id='getAllButton'>GET ALL</button>
+        <button type='button' class="button" id='getButton'>GET</button>
+        <button type='button' class="button" id='postButton'>POST</button>
+        <button type='button' class="button" id='putButton'>PUT</button>
+        <button type='button' class="button" id='patchButton'>PATCH</button>
+    </form>
+
+    <form>
+        <button type='button' id='starButton'>Send Request with "*" ETag</button>
+        
+    </form>
+
+    <br />
+
+    <div class="etag">
+        The current E-TAG
+        <div id="etag"></div>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="result" id="results"></div>
+
+
+</body>
+</html>

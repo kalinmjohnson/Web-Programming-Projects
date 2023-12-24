@@ -1,0 +1,59 @@
+﻿body {
+    color: white;
+    text-align: center;
+    background-image: url("http://3.bp.blogspot.com/-b47fkL54sBg/UNSh3Gis7eI/AAAAAAAA1hg/JiNvIyJ0pEk/s1600/we_are_gargoyles_by_alexdeb-d3e5jhz.jpg");
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title {
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: gold;
+}
+
+.instructions {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(0,0,0,0.5);
+}
+
+.input {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(0,0,0,0.5);
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.etag {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(0,0,0,0.5);
+}
+
+.result {
+    padding: 10px;
+    margin: 10px;
+    background: rgba(0,0,0,0.8);
+}
+
+#starButton {
+    adding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    background-color: cadetblue;
+}
