@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "6RKZfYTIeJ1u8oVqPX/Kb7aUSpgGciyLSmsxCSupLEU=",
+  "Source": "Mario",
+  "BasePath": "_content/Mario",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Mario/wwwroot",
+      "Source": "Mario",
+      "ContentRoot": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/",
+      "BasePath": "_content/Mario",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/index.html",
+      "SourceId": "Mario",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/",
+      "BasePath": "_content/Mario",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/index.js",
+      "SourceId": "Mario",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/",
+      "BasePath": "_content/Mario",
+      "RelativePath": "index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.js"
+    },
+    {
+      "Identity": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/style.css",
+      "SourceId": "Mario",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/",
+      "BasePath": "_content/Mario",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/style.css"
+    }
+  ]
+}

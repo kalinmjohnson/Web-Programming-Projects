@@ -1,0 +1,145 @@
+﻿body {
+    background-color: rgb(4, 156, 216);
+    color: black;
+}
+
+.text {
+    color: whitesmoke;
+    font-family: fantasy;
+    font-size: 25px;
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+    margin: 30px;
+    justify-content: center;
+    position: fixed;
+    left: 50%;
+    bottom: -8%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.ground {
+    position: absolute;
+    bottom: 12%;
+    width: 30%;
+    height: 15%;
+}
+
+.cloud {
+    position: absolute;
+    height: 10%;
+}
+
+.hill {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    z-index: -2;
+}
+
+.bush {
+    z-index: -1;
+    position: absolute;
+    height: 15%;
+    width: 15%;
+    bottom: 22%;
+}
+
+#mario.jump {
+    bottom: 0px;
+    bottom: 35%;
+    transition: left 1s, bottom 1s;
+}
+
+#mario {
+    width: 5%;
+    height: 13%;
+    position: absolute;
+    bottom: 0px;
+    bottom: 25%;
+    left: 0px;
+    left: 5%;
+    transition: left 1s, bottom 1s;
+}
+
+#startButton {
+    color: rgb(251, 208, 0);
+    background-color: rgb(229, 37, 33);
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    border-block-color: white;
+    justify-content: center;
+    width: 14%;
+    padding: 15px;
+    margin: 15px;
+    top: 5%;
+    left: 43%;
+}
+
+#ground1 {
+    left: -4%;
+}
+
+#ground2 {
+    left: 18%;
+}
+
+#ground3 {
+    left: 40%;
+}
+
+#ground4 {
+    left: 62%;
+}
+
+#ground5 {
+    left: 84%;
+}
+
+#cloud1 {
+    left: 84%;
+    bottom: 85%;
+    width: 10%;
+}
+
+#cloud2 {
+    left: 50%;
+    bottom: 70%;
+    width: 10%;
+}
+
+#cloud3 {
+    left: 15%;
+    bottom: 80%;
+    width: 20%;
+}
+
+#flag {
+    width: 15%;
+    height: 30%;
+    position: absolute;
+    bottom: 26%;
+    left: 90%;
+}
+
+#hill1 {
+    bottom: 15%;
+    left: 60%;
+}
+
+#hill2 {
+    bottom: 23%;
+    left: 5%;
+}
+
+#bush1 {
+    left: 90%;
+}
+
+#bush2 {
+    left: 35%;
+}

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/index.js",
+      "PackagePath": "staticwebassets/index.js"
+    },
+    {
+      "Id": "/Users/kalinjohnson/Projects/Mario/Mario/wwwroot/style.css",
+      "PackagePath": "staticwebassets/style.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Mario.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Mario.props",
+      "PackagePath": "build\\Mario.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Mario.props",
+      "PackagePath": "buildMultiTargeting\\Mario.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Mario.props",
+      "PackagePath": "buildTransitive\\Mario.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
