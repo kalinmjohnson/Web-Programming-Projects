@@ -1,0 +1,112 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.upload {
+    background-image: url("https://wallpapercave.com/wp/wp6640169.jpg");
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    min-height: 95%;
+    background-size: 100% 100%;
+}
+
+.input {
+    display: flex;
+}
+
+.controlsContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    background-size: 100% 100%;
+}
+
+.imagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: slategrey;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.error {
+  color: red;
+  font-size: 1.5em;
+}
+
+
+
+.title {
+    color: ghostwhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    padding: 30px;
+
+}
+
+.buttons {
+    padding: 10px;
+    margin: 10px;
+}
+
+.buttons:disabled {
+    opacity: 100%;
+}
+
+.image {
+    max-height: 600px;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.chooseFile {
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+.toastDiv {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .image {
+        max-height: 320px;
+        max-width: 320px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .noMobile {
+        display: none;
+    }
+
+    .title {
+        padding: 10px;
+    }
+
+    .chooseFile {
+        width: 95%;
+    }
+}
