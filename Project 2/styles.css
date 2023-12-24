@@ -1,0 +1,50 @@
+body {
+	font-size: 30px;
+	font-family:Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+	background-image: url(https://wallpaperaccess.com/full/2753723.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+input {
+	padding: 4px;
+	margin: 4px;
+}
+
+.button {
+	font-size: 30px;
+	padding:12px;
+	color:rgb(91, 49, 18);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	border-radius: 5px;
+	width: 23%;
+	align-self: center;
+}
+
+.title{
+	font-size: 50px;
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bolder;
+	color:rgb(59, 34, 10);
+}
+
+.form1 {
+	background-color:blanchedalmond;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	
+}
+
+.form2 {
+	background-color: darkgrey;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.return {
+	text-decoration: underline;
+	color:rgb(65, 74, 83);
+}

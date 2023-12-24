@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/kalinjohnson/Downloads/Web-Programming-FA2023/Lectures/11-09-2023 JWT/Portal/Portal/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/kalinjohnson/Downloads/Web-Programming-FA2023/Lectures/11-09-2023 JWT/Portal/Portal/wwwroot/index.js",
+      "PackagePath": "staticwebassets/index.js"
+    },
+    {
+      "Id": "/Users/kalinjohnson/Downloads/Web-Programming-FA2023/Lectures/11-09-2023 JWT/Portal/Portal/wwwroot/style.css",
+      "PackagePath": "staticwebassets/style.css"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Portal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Portal.props",
+      "PackagePath": "build\\Portal.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Portal.props",
+      "PackagePath": "buildMultiTargeting\\Portal.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Portal.props",
+      "PackagePath": "buildTransitive\\Portal.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

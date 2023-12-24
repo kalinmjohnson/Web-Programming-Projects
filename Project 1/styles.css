@@ -1,0 +1,100 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    max-width: 100%;
+    max-height:100%;
+  }
+
+textarea {
+    width: 100%;
+    height:30%;
+    font-size: 3.5vh;
+}
+
+.blockOfText {
+    color: black;
+    font-size: 4vh;
+}
+
+.top {
+    position: fixed;
+    color: white;
+    font-size: 10vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    background-color: darkred;
+    text-align: center;
+    width: 97.275%;
+}
+
+.description {
+    color:grey;
+    font-size: 4vh;
+}
+
+.topOfText {
+    color:lightslategrey;
+    font-size: 4vh;
+}
+
+.image {
+    color:cadetblue;
+    font-size: 4vh;
+}
+
+.errorMessage {
+    color:red;
+    font-size: 5vh;
+}
+
+.link {
+    font-size: 4vh;
+}
+
+.editPage {
+    font-size: 4vh;
+    color:saddlebrown;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.rightHalf {
+    width: 50%;
+    height: 100%;
+    top:0;
+    bottom:0;
+    right:0;
+    position:fixed;
+    background-color: wheat;
+    transition: all 1s linear;
+    z-index: -900;
+}
+
+.leftHalf {
+    width: 50%;
+    height: 100%;
+    top:0;
+    bottom:0;
+    left:0;
+    position:fixed;
+    background-color: rgb(244, 112, 112);
+    transition: all 1s linear;
+    z-index: -900;
+}
+
+#parseButton {
+    font-size: 4vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#backgroundButton {
+    font-size: 4vh;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    padding: 1%;
+}

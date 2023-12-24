@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Assignment 1</title>
+
+        <link rel="stylesheet" type="text/css" href="styles.css"></link>
+
+        <script src="index.js"></script>
+    </head>
+
+    <body id="body" class="body">
+
+        <div class="rightHalf" id="rightHalf"></div>
+        <div class="leftHalf"  id="leftHalf"></div>
+
+        <div class="top"> The Incredibles! </div>
+
+        <input id="backgroundButton" type="button" value="Change the Background!"></input>
+
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <div class="description"> 
+
+        <img class="image" src="http://mickeymousepictures.com/wp-content/uploads/2015/08/The-Incredibles-12.jpg" alt="Family picture for the Incredibles">
+
+
+        The Incredibles is a 2004 American computer-animated superhero film produced by Pixar Animation Studios and released by Walt Disney Pictures. 
+    
+        </div>
+
+        <br />
+        <br />
+
+        <div class="topOfText"> 
+            The Plot
+        </div>
+
+        <br />
+
+        <!-- This section of text comes from https://www.imdb.com/title/tt0317705/ -->
+        <div id="blockOfText1" class="blockOfText">Bob Parr (A.K.A. Mr. Incredible), and his wife Helen (A.K.A. Elastigirl), are the world's greatest famous crime-fighting superheroes in Metroville, always saving lives and battling evil on a daily basis. But 15 years later, they have been forced to adopt civilian identities and retreat to the suburbs where they have no choice but to retire as superheroes to live a "normal life" with their three children Violet, Dash and Jack-Jack, who were born with secret superpowers. Itching to get back into action, Bob gets his chance when a mysterious communication summons him to a remote island for a top-secret assignment. He soon discovers that it will take a super family effort to rescue the world from total destruction.</div>
+
+        <br />
+
+        <!-- This section of text comes from https://en.wikipedia.org/wiki/The_Incredibles -->
+        <div id="blockOfText2" class="blockOfText"> The Incredibles has received several game adaptations: The Incredibles (2004), The Incredibles: When Danger Calls (2004), and The Incredibles: Rise of the Underminer (2005). Kinect Rush: A Disney-Pixar Adventure (2012) features characters and worlds from five Pixar films, including The Incredibles. Disney Infinity (2013) includes The Incredibles playset featuring the film's playable characters. Lego The Incredibles was released in June 2018.</div>
+        
+        <br />
+
+        <div id="link1" class="link"> Learn more about the Incredibles <a id="link" href="https://www.imdb.com/title/tt0317705/">here</a>!!</div>
+
+        <br />
+
+        <div id="link2" class="link">View the <a href="https://www.youtube.com/watch?v=SOKY7XyOHTA">trailer</a> on Youtube</div>
+
+        <br />
+        <br />
+
+        <div class="editPage">Edit the page with the JSON input below.</div>
+
+        <br />
+
+        <div id="errorMessage" class="errorMessage"></div>
+
+        <br />
+
+        <textarea id="jsonTextArea">
+            {
+                "color": "white",
+                "backgroundColorRight": "maroon",
+                "backgroundColorLeft": "black",
+                "link": "https://en.wikipedia.org/wiki/The_Incredibles"
+             }
+        </textarea>
+
+        <br />
+        <br />
+        <input id="parseButton" type="button" value="Parse the JSON!"></input>
+        <br />
+        <br />
+        <br />
+
+    </body>
+</html>
